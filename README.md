@@ -1,5 +1,7 @@
 # StellaClass
 
+[![A rectangular badge, half black half purple containing the text made at Code Astro](https://img.shields.io/badge/Made%20at-Code/Astro-blueviolet.svg)](https://semaphorep.github.io/codeastro/)
+
 ## Motivation
 Given a patch of sky, i.e. the RA/DEC, the package will import the sources from SDSS database, and will predict the class of the object. The prediction is based on a Supervised ML model using DecisionTree. For the purpose of using the package, we import the hyperparamters from the tuning directly. For the ones interested in training the model on their own database or reviewing the code, the files and dataset will be made avaialble on .... 
 
