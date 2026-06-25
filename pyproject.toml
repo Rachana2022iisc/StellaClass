@@ -8,7 +8,7 @@ requires = [
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "orbitize"
+name = "StellaClass"
 dynamic = ["version"]
 dependencies = [
     "numpy",
@@ -22,7 +22,7 @@ dependencies = [
 ]
 
 [tool.setuptools.dynamic]
-version = {attr = "orbitize.__version__"}
+version = {attr = "stellaclass.__version__"}
 
 [tool.setuptools.packages]
 find = {}
