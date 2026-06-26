@@ -16,7 +16,9 @@ Otherwise, clone this repo, and follow the below specified commands:
 
 `pip install -e .`
 
- A list of dependencies is available in requirements.txt
+ A list of dependencies is available in requirements.txt.
+
+ **Comment:** Creating a virtual environment and installing `python==3.10.20`, `scikit-learn==1.2.2` and `numpy==1.26.4` works flawlessly.
 
 ## Citation
 
