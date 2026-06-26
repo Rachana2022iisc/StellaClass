@@ -9,7 +9,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "StellaClass"
-dynamic = ["version"]
+version = "0.1.0"
 dependencies = [
     "numpy",
     "astropy>=4",
@@ -20,9 +20,6 @@ dependencies = [
     "astroquery",
     "scikit-learn"
 ]
-
-[tool.setuptools.dynamic]
-version = {attr = "stellaclass.__version__"}
 
 [tool.setuptools.packages]
 find = {}
