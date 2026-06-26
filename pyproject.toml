@@ -10,15 +10,16 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "StellaClass"
 version = "0.1.0"
+requires-python = ">=3.10"
 dependencies = [
-    "numpy",
+    "numpy>=1.24,<2.0",
     "astropy>=4",
     "scipy",
     "matplotlib",
     "pytest",
     "pandas",
     "astroquery",
-    "scikit-learn"
+    "scikit-learn>=1.2.2,<2.0"
 ]
 
 [tool.setuptools.packages]
